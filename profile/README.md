@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://ferry-share.github.io">
-  <img src="https://raw.githubusercontent.com/Ferry-Share/.github/main/profile/assets/banner.svg" width="100%" alt="Ferry — hand a password, a piece of text or a file from one device to another. No account, nothing stored, nothing logged.">
+  <img src="https://github.com/Ferry-Share/.github/blob/b06f576163746f573e4add5de574eb06aaa48dfa/profile/banner.svg" width="100%" alt="Ferry — hand a password, a piece of text or a file from one device to another. No account, nothing stored, nothing logged.">
 </a>
 
 <br>
