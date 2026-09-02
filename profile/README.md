@@ -21,7 +21,7 @@
 <a href="https://github.com/Ferry-Share/Ferry-Share.github.io">Source</a> &nbsp;·&nbsp;
 <a href="https://github.com/Ferry-Share/Ferry-Share.github.io/issues">Issues</a>
 
-<img src="https://raw.githubusercontent.com/Ferry-Share/.github/main/profile/assets/waterline.svg" width="100%" alt="">
+<img src="https://github.com/Ferry-Share/.github/blob/f3220557263bcef2e13324e094a1f38abf9f1d2f/profile/waterline.svg" width="100%" alt="">
 
 </div>
 
@@ -43,7 +43,7 @@ and when you close the tab there is nothing left to delete.
 4. Send. Passwords, text, files up to 250 MB.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ferry-Share/.github/main/profile/assets/handoff.svg" width="100%" alt="Sequence diagram: both devices join a room named by a hash of the PIN, exchange ephemeral ECDH public keys through the relay, derive a session key with HKDF salted from the PIN, compare four safety words, then send AES-256-GCM payloads over a direct WebRTC data channel.">
+  <img src="https://github.com/Ferry-Share/.github/blob/f3220557263bcef2e13324e094a1f38abf9f1d2f/profile/handoff.svg" width="100%" alt="Sequence diagram: both devices join a room named by a hash of the PIN, exchange ephemeral ECDH public keys through the relay, derive a session key with HKDF salted from the PIN, compare four safety words, then send AES-256-GCM payloads over a direct WebRTC data channel.">
 </div>
 
 <details>
@@ -89,7 +89,7 @@ hostile by design: it never learns the pairing code, the keys, or the data, so h
 somewhere else costs nothing in privacy.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ferry-Share/.github/main/profile/assets/waterline.svg" width="100%" alt="">
+  <img src="https://github.com/Ferry-Share/.github/blob/f3220557263bcef2e13324e094a1f38abf9f1d2f/profile/waterline.svg" width="100%" alt="">
 </div>
 
 ## Run your own
