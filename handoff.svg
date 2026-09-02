@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Pairing sequence: both devices join a room named by a hash of the PIN, exchange ephemeral ECDH public keys through the relay, derive a session key with HKDF salted from the PIN, compare four safety words, then send AES-256-GCM payloads over a direct WebRTC data channel, falling back to the relay when the network blocks it." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2YWFmMWIyNi04YTAzLTQ4YjUtODIwYi04ZmZjZDViMWYwZTcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaNzNrQV1X6DKgXy3E53h708AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDplYzAxMjY3Zi1lZmQ1LTQ3MGYtOWU3Ny00OGM1OTM5OGNhMmFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoL80+xiBNCwss0ERyQKIufQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg1rRIywsS13pZon08aUa1tKtVsMQbD9MhMBIHRfldgZakZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEPVc1M5gXb3L5vODdz/pOIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIIfeku4+z32y+9fbuhZuVJ2WttYZ/yV8Kvpc6YlvW9r8ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQH1Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjZhYWYxYjI2LThhMDMtNDhiNS04MjBiLThmZmNkNWIxZjBlNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmI1NzI3ZTNhLTEwMjctNGYxYS04NWUzLWU2MjIxM2EyNjE5MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDWtEjLCxLXelmifTxpRrW0q1WwxBsP0yEwEgdF+V2BlqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggomboQVxNYLelzbJtWZF30galQxpfv+g1ef8XXTjCIWWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggxvhkgwWcrVUWe/KaM7+2Dx33sLv5Vlh3+M5jbgksd6h0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQL+St4E70xrpBM/F5YLRjfrq93Il5LqPtvZAAawLYullogFJsPLZLo+ArWZdAZAqLQdYfP6VPh4OtiSV5PeRSFw=</c2pa:manifest></metadata>
+  <title>How a pairing happens</title>
+
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#09141F"/>
+      <stop offset="1" stop-color="#040A11"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans  { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .who   { font-size: 17px; fill: #DCE7EF; }
+    .sub   { font-size: 12px; fill: #63798B; }
+    .lbl   { font-size: 14px; fill: #9DB4C6; }
+    .num   { font-size: 13px; fill: #3F566A; }
+    .word  { font-size: 14px; fill: #F0BE7A; }
+    .key   { font-size: 15px; fill: #B6D0E2; }
+
+    .wire  { stroke: #7FB2E5; stroke-width: 2; fill: none; stroke-dasharray: 100; stroke-dashoffset: 0; }
+    .head  { fill: #7FB2E5; }
+
+    .s1 { animation: r 18s linear infinite; }
+    .s2 { animation: r 18s linear infinite; animation-delay: -15.7s; }
+
+    @keyframes r  { 0%,3% {opacity:0} 9% {opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r2 { 0%,16%{opacity:0} 22%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r3 { 0%,28%{opacity:0} 34%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r4 { 0%,41%{opacity:0} 47%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r5 { 0%,52%{opacity:0} 60%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r6 { 0%,65%{opacity:0} 72%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+    @keyframes r7 { 0%,79%{opacity:0} 86%{opacity:1} 96% {opacity:1} 100% {opacity:0} }
+
+    @keyframes a1 { 0%,3% {stroke-dashoffset:100;opacity:0} 4% {opacity:1} 11%{stroke-dashoffset:0} 96%{opacity:1} 100%{opacity:0} }
+    @keyframes a2 { 0%,16%{stroke-dashoffset:100;opacity:0} 17%{opacity:1} 24%{stroke-dashoffset:0} 96%{opacity:1} 100%{opacity:0} }
+    @keyframes a3 { 0%,28%{stroke-dashoffset:100;opacity:0} 29%{opacity:1} 36%{stroke-dashoffset:0} 96%{opacity:1} 100%{opacity:0} }
+    @keyframes a6 { 0%,65%{stroke-dashoffset:100;opacity:0} 66%{opacity:1} 75%{stroke-dashoffset:0} 96%{opacity:1} 100%{opacity:0} }
+    @keyframes a7 { 0%,79%{stroke-dashoffset:100;opacity:0} 80%{opacity:1} 86%{stroke-dashoffset:0} 96%{opacity:1} 100%{opacity:0} }
+
+    @keyframes flow { to { stroke-dashoffset: -76px; } }
+
+    .g1 { animation: r  18s linear infinite; }
+    .g2 { animation: r2 18s linear infinite; }
+    .g3 { animation: r3 18s linear infinite; }
+    .g4 { animation: r4 18s linear infinite; }
+    .g5 { animation: r5 18s linear infinite; }
+    .g6 { animation: r6 18s linear infinite; }
+    .g7 { animation: r7 18s linear infinite; }
+
+    .w1 { animation: a1 18s linear infinite; }
+    .w2 { animation: a2 18s linear infinite; }
+    .w3 { animation: a3 18s linear infinite; }
+    .w6 { animation: a6 18s linear infinite; }
+    .w7 { animation: a7 18s linear infinite; }
+
+    .pulse { animation: flow 2.2s linear infinite, r6 18s linear infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .g1,.g2,.g3,.g4,.g5,.g6,.g7,.w1,.w2,.w3,.w6,.w7,.pulse { animation: none; opacity: 1; stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect width="1280" height="640" rx="18" fill="url(#bg2)"/>
+  <rect x="1" y="1" width="1278" height="638" rx="18" fill="none" stroke="#1B2E3E" stroke-width="2"/>
+
+  <!-- participants -->
+  <g>
+    <rect x="100" y="40" width="200" height="80" rx="12" fill="#0B1B27" stroke="#26415A" stroke-width="2"/>
+    <text class="sans who" x="200" y="72" text-anchor="middle">device a</text>
+    <text class="mono sub" x="200" y="96" text-anchor="middle">mints a ten-character pin</text>
+
+    <rect x="520" y="40" width="240" height="80" rx="12" fill="#0A141D" stroke="#3A4A57" stroke-width="2" stroke-dasharray="6 6"/>
+    <text class="sans who" x="640" y="72" text-anchor="middle" fill="#93A5B3">the relay</text>
+    <text class="mono sub" x="640" y="96" text-anchor="middle">untrusted by design</text>
+
+    <rect x="980" y="40" width="200" height="80" rx="12" fill="#0B1B27" stroke="#26415A" stroke-width="2"/>
+    <text class="sans who" x="1080" y="72" text-anchor="middle">device b</text>
+    <text class="mono sub" x="1080" y="96" text-anchor="middle">scans the qr, or types it</text>
+  </g>
+
+  <!-- lifelines -->
+  <g stroke="#22384A" stroke-width="2" stroke-dasharray="3 9">
+    <path d="M200 124 V596"/>
+    <path d="M640 124 V596"/>
+    <path d="M1080 124 V596"/>
+  </g>
+
+  <!-- 1: join the room -->
+  <g class="g1">
+    <text class="mono num" x="52" y="180">1</text>
+    <text class="mono lbl" x="404" y="164" text-anchor="middle">join room = sha-256(pin)</text>
+    <text class="mono lbl" x="874" y="164" text-anchor="middle">join the same room</text>
+  </g>
+  <path class="wire w1" pathLength="100" d="M200 176 H610"/>
+  <path class="wire w1" pathLength="100" d="M1080 176 H670"/>
+  <g class="g1 head">
+    <path d="M622 176 l-12 -6 v12 z"/>
+    <path d="M658 176 l12 -6 v12 z"/>
+  </g>
+
+  <!-- 2 and 3: ephemeral keys, both directions -->
+  <g class="g2">
+    <text class="mono num" x="52" y="242">2</text>
+    <text class="mono lbl" x="640" y="226" text-anchor="middle">ephemeral ecdh public key</text>
+  </g>
+  <path class="wire w2" pathLength="100" d="M200 238 H1062"/>
+  <g class="g2">
+    <path class="head" d="M1074 238 l-12 -6 v12 z"/>
+    <circle cx="640" cy="238" r="4" fill="#3A4A57"/>
+  </g>
+
+  <g class="g3">
+    <text class="mono lbl" x="640" y="282" text-anchor="middle">ephemeral ecdh public key</text>
+  </g>
+  <path class="wire w3" pathLength="100" d="M1080 294 H218"/>
+  <g class="g3">
+    <path class="head" d="M206 294 l12 -6 v12 z"/>
+    <circle cx="640" cy="294" r="4" fill="#3A4A57"/>
+  </g>
+
+  <!-- 4: the session key -->
+  <g class="g4">
+    <text class="mono num" x="52" y="358">3</text>
+    <rect x="300" y="330" width="680" height="44" rx="22" fill="#0C1C28" stroke="#2F6E8F" stroke-width="2"/>
+    <text class="mono key" x="640" y="358" text-anchor="middle">session key = hkdf(shared secret, salt derived from the pin)</text>
+  </g>
+
+  <!-- 5: safety words -->
+  <g class="g5">
+    <text class="mono num" x="52" y="436">4</text>
+    <text class="mono sub" x="640" y="404" text-anchor="middle">the same four words render on both screens</text>
+    <g fill="#17110A" stroke="#E4913A" stroke-opacity="0.55" stroke-width="2">
+      <rect x="355" y="418" width="132" height="34" rx="8"/>
+      <rect x="501" y="418" width="132" height="34" rx="8"/>
+      <rect x="647" y="418" width="132" height="34" rx="8"/>
+      <rect x="793" y="418" width="132" height="34" rx="8"/>
+    </g>
+    <g class="mono word" text-anchor="middle">
+      <text x="421" y="441">harbour</text>
+      <text x="567" y="441">lantern</text>
+      <text x="713" y="441">pebble</text>
+      <text x="859" y="441">drift</text>
+    </g>
+    <text class="mono sub" x="640" y="478" text-anchor="middle">read them out. if they match, nobody is in the middle</text>
+  </g>
+
+  <!-- 6: the direct channel, hopping over the relay -->
+  <g class="g6">
+    <text class="mono num" x="52" y="528">5</text>
+    <text class="mono lbl" x="640" y="556" text-anchor="middle">aes-256-gcm payloads, straight between the browsers</text>
+  </g>
+  <path class="wire w6" pathLength="100" stroke="#2F6E8F" stroke-width="3" d="M200 524 H610 A30 30 0 0 1 670 524 H1062"/>
+  <path class="pulse" fill="none" stroke="#7FB2E5" stroke-width="3" stroke-dasharray="8 30" d="M200 524 H610 A30 30 0 0 1 670 524 H1062"/>
+  <g class="g6">
+    <path class="head" d="M1074 524 l-12 -7 v14 z"/>
+  </g>
+
+  <!-- 7: relay fallback -->
+  <path class="wire w7" pathLength="100" stroke="#4A5C6B" stroke-width="2" stroke-dasharray="100" d="M200 586 H1062"/>
+  <g class="g7">
+    <path d="M1074 586 l-12 -6 v12 z" fill="#4A5C6B"/>
+    <text class="mono sub" x="640" y="616" text-anchor="middle">when a network blocks the direct channel, the same sealed frames go through the relay instead</text>
+  </g>
+</svg>
