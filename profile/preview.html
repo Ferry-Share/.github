@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ferry profile assets — preview</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 40px 24px 80px;
+    font: 15px/1.6 "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background: #ffffff; color: #1f2328;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+  p.note { color: #59636e; margin: 0 0 32px; }
+  section { margin: 0 0 40px; }
+  h2 { font-size: 13px; font-weight: 600; letter-spacing: .4px; color: #59636e; margin: 0 0 10px; }
+  img { display: block; width: 100%; }
+  .light { background: #ffffff; padding: 16px; border: 1px solid #d1d9e0; border-radius: 10px; }
+  .dark  { background: #0d1117; padding: 16px; border: 1px solid #30363d; border-radius: 10px; margin-top: 12px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d1117; color: #e6edf3; }
+    p.note, h2 { color: #9198a1; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Ferry profile assets</h1>
+  <p class="note">Each asset on a light and a dark ground, the way GitHub will show it. Animations run here exactly as they will on the profile page.</p>
+
+  <section>
+    <h2>banner.svg</h2>
+    <div class="light"><img src="profile/assets/banner.svg" alt="Ferry banner"></div>
+    <div class="dark"><img src="profile/assets/banner.svg" alt="Ferry banner"></div>
+  </section>
+
+  <section>
+    <h2>handoff.svg</h2>
+    <div class="light"><img src="profile/assets/handoff.svg" alt="Pairing sequence"></div>
+    <div class="dark"><img src="profile/assets/handoff.svg" alt="Pairing sequence"></div>
+  </section>
+
+  <section>
+    <h2>waterline.svg</h2>
+    <div class="light"><img src="profile/assets/waterline.svg" alt=""></div>
+    <div class="dark"><img src="profile/assets/waterline.svg" alt=""></div>
+  </section>
+</div>
+</body>
+</html>
